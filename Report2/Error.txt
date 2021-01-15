@@ -1,0 +1,24 @@
+=== シミュレーション (経過時間: 2 秒) ===
+    CGXE assertion in 
+    b:\matlab\src\eml\coverage\eml_code_coverage.cpp at line 1018
+    In fill_in_if_info: Assertion failed: endExprIdx < scriptStrLen
+    [  0] 0x00007ffc998659b2   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00612786 EML::COV::createLoggingInstanceVar+00005442
+    [  1] 0x00007ffc99869a69   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00629353 EML::COV::createLoggingInstanceVar+00022009
+    [  2] 0x00007ffc9986a373   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00631667 EML::COV::createLoggingInstanceVar+00024323
+    [  3] 0x00007ffc99814d9e   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00282014 CG::GenericTagCategory<EML::SysObjMethodTag,0>::iterator+00002158
+    [  4] 0x00007ffc998162c2   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00287426 CG::GenericTagCategory<EML::SysObjMethodTag,0>::registerCategory+00001186
+    [  5] 0x00007ffc99818116   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00295190 CG::GenericTagCategory<EML::SysObjMethodTag,0>::registerCategory+00008950
+    [  6] 0x00007ffc99817b64   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+00293732 CG::GenericTagCategory<EML::SysObjMethodTag,0>::registerCategory+00007492
+    [  7] 0x00007ffc72d0a099 C:\Program Files\MATLAB\R2020b\bin\win64\matlabsystemblock.dll+00696473 MLSysChildCGIntrf::createChildSysFcns+00112105
+    [  8] 0x00007ffc9a152d5d   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+09973085 EML::UsageData::UsageData+00235277
+    [  9] 0x00007ffc99e1de3d   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+06610493 CG::GenericTagCategory<EML::DesignRangeTag,0>::unregisterCategory+01258813
+    [ 10] 0x00007ffc99c6c607   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+04834823 EML::NameCapture::verify+00870551
+    [ 11] 0x00007ffc99c6e724   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+04843300 EML::NameCapture::verify+00879028
+    [ 12] 0x00007ffc99e1f0d8   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+06615256 CG::GenericTagCategory<EML::DesignRangeTag,0>::unregisterCategory+01263576
+    [ 13] 0x00007ffc99d6a057   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+05873751 CG::GenericTagCategory<EML::DesignRangeTag,0>::unregisterCategory+00522071
+    [ 14] 0x00007ffc99d7bd03   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+05946627 CG::GenericTagCategory<EML::DesignRangeTag,0>::unregisterCategory+00594947
+    [ 15] 0x00007ffc99c581ff   C:\Program Files\MATLAB\R2020b\bin\win64\eml.dll+04751871 EML::NameCapture::verify+00787599
+    エラー:コンパイル中にブロック 'TestSim_R2020b_Update3/MATLAB System' でエラーが発生しました。
+    原因:
+        CGXE Infrastructure 'in CGXE: 'b:\matlab\src\eml\coverage\eml_code_coverage.cpp' line '1018': 'In fill_in_if_info: Assertion failed: endExprIdx < scriptStrLen'
+' を介したコードの生成中に Simulink でエラーが発生しました。
